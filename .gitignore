@@ -1,0 +1,32 @@
+# Keep only the new resource-based folders tracked
+*
+!common/
+!common/**
+!pods/
+!pods/**
+!README.md
+!.gitignore
+
+# Ignore the remaining root-level resource folders
+deployments/
+services/
+configmaps/
+secrets/
+storage/
+statefulsets/
+ingress/
+
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# VS Code settings
+.vscode/
+
+# Editor swap files
+*~
+*.swp
+*.swo
