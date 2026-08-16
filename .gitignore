@@ -4,6 +4,8 @@
 !deployments/**
 !pods/
 !pods/**
+!services/
+!services/**
 !README.md
 !.gitignore
 
@@ -13,7 +15,6 @@ configmaps/
 helm/
 ingress/
 secrets/
-services/
 storage/
 statefulsets/
 
