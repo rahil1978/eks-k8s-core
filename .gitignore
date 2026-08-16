@@ -6,6 +6,8 @@
 !pods/**
 !services/
 !services/**
+!statefulsets/
+!statefulsets/**
 !README.md
 !.gitignore
 
@@ -16,7 +18,7 @@ helm/
 ingress/
 secrets/
 storage/
-statefulsets/
+#statefulsets/
 
 
 # macOS system files
