@@ -1,5 +1,7 @@
 # Keep only pods and deployments folders tracked
 *
+!configmaps/
+!configmaps/**
 !deployments/
 !deployments/**
 !pods/
@@ -13,7 +15,7 @@
 
 # Ignore the remaining root-level resource folders
 common/
-configmaps/
+#configmaps/
 helm/
 ingress/
 secrets/
