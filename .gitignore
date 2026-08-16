@@ -1,20 +1,21 @@
-# Keep only the new resource-based folders tracked
+# Keep only pods and deployments folders tracked
 *
-!common/
-!common/**
+!deployments/
+!deployments/**
 !pods/
 !pods/**
 !README.md
 !.gitignore
 
 # Ignore the remaining root-level resource folders
-deployments/
-services/
+common/
 configmaps/
+helm/
+ingress/
 secrets/
+services/
 storage/
 statefulsets/
-ingress/
 
 
 # macOS system files
